@@ -1,0 +1,113 @@
+<template>
+  <div :mode="mode">
+    <div class="main">
+      <div class="head-counter">
+        <p class="counter">
+          {{ $store.state.counter }}
+        </p>
+      </div>
+      <div class="buttons">
+        <button @click="$store.commit('incrementCount')">+</button>
+        <button @click="$store.commit('decrementCount')">-</button>
+        <button @click="$store.commit('resetCount')">Reset</button>
+      </div>
+      <div class="setvalue">
+        <input
+          type="number"
+          class="input-field"
+          placeholder="Set Value"
+          v-model="newValue"
+        />
+        <button @click="$store.commit('setNumber', newValue)">Set Value</button>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "CounterApp",
+  props: ["mode"],
+  data() {
+    return { newValue: 0 };
+  },
+};
+</script>
+<style>
+/* .home {
+  width: 100vw;
+  height: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+.main {
+  width: 400px;
+  height: 300px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.head-counter {
+  height: 140px;
+}
+.counter {
+  color: #fff;
+  font-size: 80px;
+}
+
+.setvalue {
+  margin: 20px auto;
+  height: 40px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.light .main {
+  background: #a5cfed;
+}
+.setvalue button {
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+}
+.setvalue button:hover {
+  background: gray;
+}
+
+input {
+  border: none;
+  height: 50px;
+  padding: 10px;
+  width: 160px;
+  font-size: 16px;
+}
+.input-field {
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+.buttons button {
+  font-size: 30px;
+  width: 100px;
+  /* margin: 0 10px; */
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background: gray;
+}
+</style>
