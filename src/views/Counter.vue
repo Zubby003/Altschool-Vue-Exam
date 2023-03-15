@@ -34,17 +34,6 @@ export default {
 };
 </script>
 <style>
-/* .home {
-  width: 100vw;
-  height: 300px;
-  margin: 20px auto;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
-
 .main {
   width: 400px;
   height: 300px;
