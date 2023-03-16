@@ -17,12 +17,12 @@ To get started with the project, follow these steps:
  + [Github Actions](https://docs.github.com/en/actions/)
 
 ## 🚀 Live Demo <a name='live-demo'></a>
-- [Live Demo Link] (https://altschool-third-exam.netlify.app/counter)
+- [Live Demo Link](https://altschool-third-exam.netlify.app/counter)
 
 
 ## Deployment
 Netlify was used to deploy the app. 
- + [Vercel](https://netlify.com/dashboard
+ + [Netlifyl](https://www.netlify.com/)
 
 
 ### USAGE
