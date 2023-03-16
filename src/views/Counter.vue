@@ -46,9 +46,13 @@ export default {
 .head-counter {
   height: 140px;
 }
+.light .counter {
+  color: #000;
+}
 .counter {
   color: #fff;
-  font-size: 80px;
+  font-size: 24px;
+  margin-top: 60px;
 }
 
 .setvalue {
