@@ -15,9 +15,14 @@ To get started with the project, follow these steps:
 * [![CSS][CSS]][CSS-url]
 * [![Vuex][Vuex]][Vuex-url]
 
+##🚀 Live Demo <a name='https://altschool-third-exam.netlify.app/counter'></a>
+
+## Deployment
+
 
 ### USAGE
 The counter can be incremented by clicking the "+" button, decremented by clicking the "-" button and reset to 0 by clicking the "Reset" button
 
-### License
+### License <a name='license'></a>
+This project is [MIT](./LICENSE) licencse
 
