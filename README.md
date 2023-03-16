@@ -22,7 +22,7 @@ To get started with the project, follow these steps:
 
 ## Deployment
 Netlify was used to deploy the app. 
- + [Netlifyl](https://www.netlify.com/)
+ + [Netlify](https://www.netlify.com/)
 
 
 ### USAGE
