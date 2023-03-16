@@ -28,6 +28,9 @@ Netlify was used to deploy the app.
 ### USAGE
 The counter can be incremented by clicking the "+" button, decremented by clicking the "-" button and reset to 0 by clicking the "Reset" button
 
+## Contributing
+Contributions are always welcome! Please create a pull request or issue if you find any bugs or have any suggestions
+
 ### License <a name='license'></a>
 This project is [MIT](./LICENSE) licencse
 
