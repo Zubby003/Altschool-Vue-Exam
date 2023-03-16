@@ -10,14 +10,19 @@ To get started with the project, follow these steps:
 4.Open the project in your web browser at `http://localhost:8080`.
 
 ### Built With
-* [![Vue][Vue.js]][Vue-url]
-* [![JavaScript][JavaScript]][JavaScript-url]
-* [![CSS][CSS]][CSS-url]
-* [![Vuex][Vuex]][Vuex-url]
+ + [JavaScript](https://javascript.info/) 
+ + [VueJs](https://vuejs.org/) 
+ + [VueX](https://vuex.vuejs.org/) 
+ + [Vue Router](https://router.vuejs.org/) 
+ + [Github Actions](https://docs.github.com/en/actions/)
 
-##🚀 Live Demo <a name='https://altschool-third-exam.netlify.app/counter'></a>
+## 🚀 Live Demo <a name='live-demo'></a>
+- [Live Demo Link] (https://altschool-third-exam.netlify.app/counter)
+
 
 ## Deployment
+Netlify was used to deploy the app. 
+ + [Vercel](https://netlify.com/dashboard
 
 
 ### USAGE
