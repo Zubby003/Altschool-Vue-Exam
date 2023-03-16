@@ -34,20 +34,14 @@ export default {
   padding: 0;
   box-sizing: border-box;
 }
+
 header {
-  /* max-height: 100vh; */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100vw;
-  /* max-width: 1440px; */
-  /* vertical-align: center; */
   background: #a5cfed;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
-/* nav {
-  padding: 30px;
-} */
 
 nav a {
   font-weight: bold;
@@ -67,5 +61,8 @@ nav a.router-link-exact-active {
 
 .dark header {
   background: #15202b;
+}
+.dark nav a {
+  color: #fff;
 }
 </style>

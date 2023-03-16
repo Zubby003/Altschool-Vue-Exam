@@ -1,25 +1,23 @@
 <template>
-  <div :mode="mode">
-    <div class="main">
-      <div class="head-counter">
-        <p class="counter">
-          {{ $store.state.counter }}
-        </p>
-      </div>
-      <div class="buttons">
-        <button @click="$store.commit('incrementCount')">+</button>
-        <button @click="$store.commit('decrementCount')">-</button>
-        <button @click="$store.commit('resetCount')">Reset</button>
-      </div>
-      <div class="setvalue">
-        <input
-          type="number"
-          class="input-field"
-          placeholder="Set Value"
-          v-model="newValue"
-        />
-        <button @click="$store.commit('setNumber', newValue)">Set Value</button>
-      </div>
+  <div class="main" :mode="mode">
+    <div class="head-counter">
+      <p class="counter">
+        {{ $store.state.counter }}
+      </p>
+    </div>
+    <div class="buttons">
+      <button @click="$store.commit('incrementCount')">+</button>
+      <button @click="$store.commit('decrementCount')">-</button>
+      <button @click="$store.commit('resetCount')">Reset</button>
+    </div>
+    <div class="setvalue">
+      <input
+        type="number"
+        class="input-field"
+        placeholder="Set Value"
+        v-model="newValue"
+      />
+      <button @click="$store.commit('setNumber', newValue)">Set Value</button>
     </div>
   </div>
 </template>
@@ -44,6 +42,7 @@ export default {
   align-items: center;
   justify-content: center;
 }
+
 .head-counter {
   height: 140px;
 }
@@ -80,13 +79,12 @@ input {
   font-size: 16px;
 }
 .input-field {
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px;
   outline: none;
 }
 .buttons button {
-  font-size: 30px;
-  width: 100px;
-  /* margin: 0 10px; */
+  font-size: 20px;
+  width: 80px;
 }
 
 button {
